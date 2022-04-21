@@ -1,0 +1,24 @@
+
+@include tablet {
+    .contenedor-enlaces-admin{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+@include tabletResponsive {
+    .contenedor-enlaces-admin{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
