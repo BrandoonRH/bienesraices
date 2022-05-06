@@ -1,5 +1,5 @@
 <?php 
-require 'includes/functions.php';
+require 'includes/app.php';
 incluirTemplate('header');
 ?>
 
@@ -8,8 +8,6 @@ incluirTemplate('header');
         <h2>Casas y Depas en Venta</h2>
 
         <?php 
-
-               $limiteAnuncios = 10; 
                
                 include 'includes/templates/anuncios.php';
             ?>

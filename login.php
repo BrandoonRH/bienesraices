@@ -1,5 +1,5 @@
 <?php 
-require 'includes/config/database.php'; 
+require 'includes/app.php';
 $conexionDB = conectDB(); 
 
 
@@ -58,7 +58,7 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
 
 }
 
-require 'includes/functions.php';
+
 incluirTemplate('header');
 ?>
 

@@ -1,0 +1,21 @@
+{
+    "name": "aeroa/bienesraices",
+    "description": "Creando Proyecto de Bienes Raices con POO y PDO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "BrandoonRH",
+            "email": "aeroatlas.51@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    
+    "autoload":{
+        "psr-4": {
+            "App\\" : "./class"
+        }
+
+    }
+}

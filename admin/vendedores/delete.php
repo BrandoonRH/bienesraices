@@ -9,7 +9,13 @@ incluirTemplate('header');
 ?>
 
 <main>
-    <h1>Eliminar Propiedad</h1>
+    <h1>Eliminar Vendedor</h1>
+
+    <div class="contenedor">
+    <a href="/bienesraices/admin/" class="boton boton-verde">Volver..</a>
+   </div>
+
+   
 </main>
 
 <?php 

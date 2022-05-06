@@ -45,10 +45,14 @@
     }
 
     table.propiedades{
+        
         tbody{
+            
             td{
                 color: $blanco;
+                border-bottom: 1px $blanco solid;
             }
+         
         }
     }
 
