@@ -1,6 +1,5 @@
 /images
 /node_modules
 /src/img 
-/build
-
+/build/img
 /vendor/
